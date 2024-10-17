@@ -1,3 +1,194 @@
-<a href="/" class="nav-link">Trang chủ</a>
-<a href="/ve-chung-toi" class="nav-link">Về chúng tôi</a>
-<a href="/lien-he" class="nav-link">Liên hệ</a>
+<div class="container-fluid container-fuild-home d-flex justify-content-center" style="z-index: 9999;">
+    <div class="modal-popup d-none d-md-block" style="z-index: 9999;">
+        <div class="modal-dialog position-relative">
+            <div class="modal-content px-4 pt-5 mx-3 ">
+                <div class="modal-body d-flex flex-column justify-content-center align-items-center">
+                    <div class="text-uppercase text-center spacing" style="font-size: 18px;">
+                        <p>Chào Mừng Đến Với </p>
+                        <p>Khu Nghỉ Dưỡng</p>
+                        <p>Qkit Hotel & Resort</p>
+                    </div>
+                    <div class="modal-logo py-4 mt-2 ">
+                        <img class="img-fluid" width="120px" src="images/logo/logo.png" alt="">
+                    </div>
+                    <div class="modal-desc py-2">
+                        <small>Qkit Hotel & Resort
+                            Viet Nam </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="under-modal position-absolute text-white text-uppercase spacing px-3">
+        Khu nghỉ dưỡng Việt Nam chuẩn Quốc Tế nằm tại vị trí đắc địa
+    </div>
+</div>
+
+<!-- Về chúng tôi  -->
+
+<div class="container-fuild container-fluid-about">
+    <div class="container homepage-about py-5">
+        <div class="row px-0 py-5 mt-5">
+            <div class="col-lg-5">
+                <div class="about-text px-3">
+                    <small style="color: var(--color-button);">Về chúng tôi</small>
+                    <h2 class="about-text-header py-3">
+                        Một khách sạn sang trọng
+                        với thiên nhiên</h2>
+                    <p class="about-text-desc py-4">
+                        Đa dạng các địa điểm và dịch vụ giải trí: sân tennis, sân bóng rổ sân cầu lông, bàn bi da, bàn
+                        bi lắc, hồ bơi trong nhà, phòng trò chơi dành cho trẻ em, massage/Spa, tour tham quan thành phố…
+                    </p>
+                    <div class="about-text-footer">
+                        <div class="px-1">
+                            <app-button [text]="'Xem thêm'"></app-button>
+                            <span class="px-4 fst-italic">or</span>
+                            <span>
+                                <a href="" class="text-decoration-none hover">Xem Video</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="about-thumb d-flex">
+                    <div class="img_1">
+                        <img src="https://themewagon.github.io/montana/img/about/about_1.png" alt="">
+                    </div>
+                    <div class="img_2 mx-2 mt-4">
+                        <img src="https://themewagon.github.io/montana/img/about/about_2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Ưu đãi -->
+
+<div class="container-fluid py-5">
+    <div class="container">
+        <div class="row pb-5">
+            <div class="col-xl-12">
+                <div class="section_title text-center mb-100">
+                    <small style="color: var(--color-button);">Ưu đãi của Chúng tôi</small>
+                    <h3>Ưu đãi đang có</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col-xl-4 col-md-4">
+                <div class="single_offers h-100">
+                    <div class="about_thumb">
+                        <img class="img-fluid" src="images/2.webp" alt="">
+                    </div>
+                    <h3>Up to 35% savings on Club <br>
+                        rooms and Suites</h3>
+                    <ul class="pt-2 pb-3">
+                        <li>Luxaries condition</li>
+                        <li>3 Adults &amp; 2 Children size</li>
+                        <li>Sea view side</li>
+                    </ul>
+                    <app-button2 text="Đặt ngay"></app-button2>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-4">
+                <div class="single_offers h-100">
+                    <div class="about_thumb">
+                        <img class="img-fluid" src="images/3.webp" alt="">
+                    </div>
+                    <h3>Up to 35% savings on Club <br>
+                        rooms and Suites</h3>
+                    <ul class="pt-2 pb-3">
+                        <li>Luxaries condition</li>
+                        <li>3 Adults &amp; 2 Children size</li>
+                        <li>Sea view side</li>
+                    </ul>
+                    <app-button2 text="Đặt ngay"></app-button2>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-4">
+                <div class="single_offers h-100">
+                    <div class="about_thumb">
+                        <img class="img-fluid" src="images/4.jpg" alt="">
+                    </div>
+                    <h3>Up to 35% savings on Club <br>
+                        rooms and Suites</h3>
+                    <ul class="pt-2 pb-3">
+                        <li>Luxaries condition</li>
+                        <li>3 Adults &amp; 2 Children size</li>
+                        <li>Sea view side</li>
+                    </ul>
+                    <app-button2 text="Đặt ngay"></app-button2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- địa điểm tốt -->
+
+<div class="container-fuild p-5 pt-5 container-fuild-location">
+    <div class="container wrapper-location clearfix pb-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="content-location-left">
+                    <div class="lct-top-content text-start py-5">
+                        <h4>Những Điểm Ấn Tượng</h4>
+                        <span>Là khách sạn & resort có số lượng phòng nhiều nhất</span>
+                    </div>
+                    <div class="card-location ">
+                        <div class="card-location-img">
+                            <img class="img-fuild img-location"
+                                src="https://dalat.terracottaresort.com/image-data/950-620/dalat.terracottaresort.com/static/upload/images/nhung-diem-an-tuong/Diemantuong-27.jpg">
+                        </div>
+                        <div class="lct-wrap-content">
+                            <h4>Bán đảo ven hồ Tuyền Lâm</h4>
+                            <span>Khu nghỉ dưỡng Terracotta Đà Lạt rộng hơn 17 hecta, toạ lạc trên bán đảo ven hồ Tuyền
+                                Lâm</span>
+                            <a href="#" class="wrap-location">
+                                Tìm Hiểu Thêm <i class="fa-solid fa-arrow-right small"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="content-location-right">
+                    <div class="card-location ">
+                        <div class="card-location-img">
+                            <img class="img-fuild img-location"
+                                src="https://dalat.terracottaresort.com/image-data/950-620/dalat.terracottaresort.com/static/upload/images/dia-diem/Vi-Tri-Dac-Dia.jpg">
+                        </div>
+                        <div class="lct-wrap-content">
+                            <h4>Vị trí đắc địa</h4>
+                            <span>Chỉ mất 10 phút đi vào trung tâm thành phố, 20 phút từ sân bay Liên Khương về khu nghỉ
+                                dưỡng</span>
+                            <a href="#" class="wrap-location">
+                                Tìm Hiểu Thêm <i class="fa-solid fa-arrow-right small"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-location ">
+                        <div class="card-location-img">
+                            <img src="https://dalat.terracottaresort.com/image-data/950-620/dalat.terracottaresort.com/static/upload/images/dia-diem/253206803-1768023266740888-6386722937691550827-N.jpg"
+                                class="img-fuild img-location">
+                        </div>
+                        <div class="lct-wrap-content">
+                            <h4>Không gian mở, rộng lớn</h4>
+                            <span>Không gian mở, rộng lớn, rất thích hợp để tổ chức tiệc ngoài trời, hoạt động nhóm và
+                                lễ
+                                cưới…</span>
+                            <a href="#" class="wrap-location">
+                                Tìm Hiểu Thêm <i class="fa-solid fa-arrow-right small"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>

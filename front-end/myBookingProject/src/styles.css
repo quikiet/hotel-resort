@@ -2,29 +2,32 @@
 
 :root {
     /* Background */
-    --color-bg: #DDE8F0;
+    --color-bg: #f9fbf0 !important;
 
     /* Border/Footer */
-    --color-border: #97CBDC;
+    --color-border: #97CBDC !important;
 
     /* Button */
-    --color-button: #018ABD;
+    --color-button: #009DFF !important;
 
-    /* Text, Title, Hover */
-    --color-text: #004581;
+    /* Hover */
+    --color-hover: #009DFF !important;
+
+    /* Text, Title,  */
+    --color-text: #000000 !important;
 
     /* Secondary Text */
-    --color-text-secondary: #666666;
+    --color-text-secondary: #666666 !important;
 
     /* Warning */
-    --color-warning: #FF4D4D;
+    --color-warning: #FF4D4D !important;
 
     /* Highlight Colors */
-    --color-highlight-1: #FFD966;
-    --color-highlight-2: #FFA500;
+    --color-highlight-1: #FFD966 !important;
+    --color-highlight-2: #FFA500 !important;
 
     /* Linear Gradient */
-    --color-linear: linear-gradient(135deg, #DDE8F0, #97CBDC, #018ABD, #004581);
+    --color-linear: linear-gradient(135deg, #DDE8F0, #97CBDC, #018ABD, #004581) !important;
 
 }
 
@@ -37,5 +40,5 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--color-bg);
-    color: var(--color-text-title-hover);
+    color: var(--color-text);
 }

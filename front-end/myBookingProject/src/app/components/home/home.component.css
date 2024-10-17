@@ -1,0 +1,156 @@
+.container-fuild-home {
+    height: 100vh;
+    /* background-image: url(/images/bg.jpg); */
+    background-image: url(/images/bg-gif.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.modal-popup {
+    transition: all 0.4s;
+    transform: translateY(15%) scale(1);
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.modal-desc {
+    font-weight: 300;
+    font-size: .5rem;
+}
+
+.spacing {
+    letter-spacing: 1px;
+}
+
+.under-modal {
+    bottom: 12%;
+    font-size: 12px;
+    word-spacing: 2px;
+}
+
+
+/* about */
+
+
+.container-fluid-about {
+    height: auto;
+}
+
+.about-text-header {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.about-text-desc {
+    color: var(--yellow-color);
+}
+
+.hover {
+    transition: all ease-in-out 0.3s;
+    padding-bottom: 2px;
+}
+
+.hover:hover {
+    border-bottom: 1px solid var(--color-text-secondary);
+}
+
+/* Ưu đãi */
+
+.section_title h3 {
+    font-size: 46px;
+    font-weight: 300;
+    line-height: 56px;
+}
+
+.about_thumb {
+    overflow: hidden;
+}
+
+.single_offers h3 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 32px;
+}
+
+.about_thumb img {
+    width: 100%;
+    height: 300px;
+    transform: scale(1);
+    transition: .3s;
+}
+
+.about_thumb:hover img{
+    transform: scale(1.1);
+}
+.single_offers ul {
+    padding-left: 1rem;
+    color: var(--color-text-secondary);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+
+/* Địa điểm tốt  */
+
+
+.container-fuild-location {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: var(--white-color);
+    background-image: url(https://dalat.terracottaresort.com/static/themes/sevenmedia/images/backimg.svg);
+}
+
+.content-location-right{
+    padding-left: 25px;
+}
+
+.content-location-left{
+    padding-right: 25px;
+}
+
+.wrap-location {
+    display: block;
+    text-decoration: none;
+    font-size: x-small;
+    padding: 15px 0;
+    color: var(--color-text-secondary);
+}
+
+.wrap-location:hover {
+    color: var(--color-button);
+}
+
+.img-location {
+    width: 100%;
+    height: auto;
+    /* padding: 1rem 0; */
+
+    /* padding-top: 5rem; */
+}
+
+.wrapper-location h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.wrapper-location span {
+    font-size: 14px;
+}
+
+.lct-top-content {
+    padding-left: 15rem;
+}
+
+.lct-top-content span{
+    color: var(--color-text-secondary);
+}
+
+.card-location-img {
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
