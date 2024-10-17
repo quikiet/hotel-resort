@@ -1,0 +1,62 @@
+<nav class="nav-header position-fixed w-100 position-relative">
+    <div class="container-fluid my-3">
+        <div class="d-flex justify-content-between align-items-center px-md-5 mx-md-5">
+            <div class="main-logo">
+                <a class="navbar-brand" href="">
+                    <img src="images/logo/logo-no-background.png" class="logo" alt="logo" loading="lazy">
+                </a>
+            </div>
+            <div class="mx-5 fs-5">
+                <div>
+                    <button class="border-0 btn-menu" #btnOpen (click)="OpenNCloseMenu()" >
+                        <span style="color: var(--yellow-color2);">Menu</span><i class='bx bx-menu px-4'></i>
+                    </button>
+                </div>
+                <div>
+                    <button class="fs-5 btn-menu border-0" id="btn-close" #btnClose (click)="OpenNCloseMenu()">
+                        <span style="color: var(--brown-color);">Close</span> <i class='bx bx-menu-alt-right px-4 pb-3'></i>
+                     </button>
+                </div>
+            </div>
+        </div>
+        <div class="menuarea" #menuHeader>
+            <div class="nav-item pt-5 ps-5 logo-menu" >
+                <a class="" routerLink="">
+                    <img src="/images/logo/logo.png" class="logo" alt="" loading="lazy"> 
+                </a>
+            </div>
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/ve-chung-toi">Giới thiệu</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/khuyen-mai">Ưu đãi</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/phong-va-dich-vu">Phòng và Dịch Vụ</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">Nhà hàng & Ẩm thực</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/thu-vien-hinh-anh">Thư viện ảnh & Video</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/giai-tri">Giải trí</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/dia-diem">Địa điểm</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/khuyen-mai">Khuyến mãi</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/lien-he">Liên hệ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
