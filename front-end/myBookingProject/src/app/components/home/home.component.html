@@ -26,8 +26,8 @@
 
 <!-- Về chúng tôi  -->
 
-<div class="container-fuild container-fluid-about">
-    <div class="container homepage-about py-5">
+<div class="container-fuild">
+    <div class="container py-5">
         <div class="row px-0 py-5 mt-5">
             <div class="col-lg-5">
                 <div class="about-text px-3">
@@ -51,11 +51,11 @@
                 </div>
             </div>
             <div class="col-lg-7">
-                <div class="about-thumb d-flex">
+                <div class="image-thumb d-flex">
                     <div class="img_1">
                         <img src="https://themewagon.github.io/montana/img/about/about_1.png" alt="">
                     </div>
-                    <div class="img_2 mx-2 mt-4">
+                    <div class="img_2">
                         <img src="https://themewagon.github.io/montana/img/about/about_2.png" alt="">
                     </div>
                 </div>
@@ -134,7 +134,8 @@
             <div class="col-lg-6">
                 <div class="content-location-left">
                     <div class="lct-top-content text-start py-5">
-                        <h4>Những Điểm Ấn Tượng</h4>
+                        <small style="color: var(--color-button);">Địa điểm thuận lợi</small>
+                        <h4 class="pt-2">Những Điểm Ấn Tượng</h4>
                         <span>Là khách sạn & resort có số lượng phòng nhiều nhất</span>
                     </div>
                     <div class="card-location ">
@@ -155,7 +156,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="content-location-right">
-                    <div class="card-location ">
+                    <div class="card-location">
                         <div class="card-location-img">
                             <img class="img-fuild img-location"
                                 src="https://dalat.terracottaresort.com/image-data/950-620/dalat.terracottaresort.com/static/upload/images/dia-diem/Vi-Tri-Dac-Dia.jpg">
@@ -169,7 +170,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="card-location ">
+                    <div class="card-location">
                         <div class="card-location-img">
                             <img src="https://dalat.terracottaresort.com/image-data/950-620/dalat.terracottaresort.com/static/upload/images/dia-diem/253206803-1768023266740888-6386722937691550827-N.jpg"
                                 class="img-fuild img-location">
@@ -192,3 +193,246 @@
     </div>
 
 </div>
+
+<!-- nhà hàng và ẩm thực  -->
+
+<div class="container-fuild py-5">
+    <div class="container py-5">
+        <div class="row px-0 py-5 mt-5">
+            <div class="col-lg-7">
+                <div class="image-thumb d-flex justify-content-end">
+                    <div class="img_1">
+                        <img src="https://themewagon.github.io/montana/img/about/1.png" alt="">
+                    </div>
+                    <div class="img_2">
+                        <img src="images/2.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="about-text px-3">
+                    <small style="color: var(--color-button);">Nhà hàng và ẩm thực</small>
+                    <h2 class="about-text-header py-3">
+                        Một khách sạn sang trọng
+                        với thiên nhiên</h2>
+                    <p class="about-text-desc py-4">
+                        Đa dạng các địa điểm và dịch vụ giải trí: sân tennis, sân bóng rổ sân cầu lông, bàn bi da, bàn
+                        bi lắc, hồ bơi trong nhà, phòng trò chơi dành cho trẻ em, massage/Spa, tour tham quan thành phố…
+                    </p>
+                    <div class="about-text-footer">
+                        <div class="px-1">
+                            <app-button [text]="'Xem thêm'"></app-button>
+                            <span class="px-4 fst-italic">or</span>
+                            <span>
+                                <a href="" class="text-decoration-none hover">Xem Video</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- phòng và dịch vụ -->
+
+<div class="container-fuild feature-rooms py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title text-center pb-5">
+                    <small style="color: var(--color-button);">Phòng nổi bật</small>
+                    <h3 class="p-3">Chọn một phòng tốt hơn</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="room-here py-5">
+        <div class="row">
+            <div class="col-lg-6 p-0 room-thumb position-relative">
+                <img class="img-fluid" src="images/2.webp">
+                <div class="room-thumb-desc p-5 mx-3 position-absolute w-100">
+                    <div class="room-thumb-heading d-flex justify-content-between align-items-center mx-3">
+                        <div class="room-heading-inner text-white">
+                            <span>Từ 2.000.000 đ/đêm</span>
+                            <h3>Phòng thường</h3>
+                        </div>
+                        <a class="room-booking">Đặt Phòng</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 p-0 room-thumb position-relative">
+                <img class="img-fluid" src="images/2.webp">
+                <div class="room-thumb-desc p-5 mx-3 position-absolute w-100">
+                    <div class="room-thumb-heading d-flex justify-content-between align-items-center mx-3">
+                        <div class="room-heading-inner text-white">
+                            <span>Từ 2.000.000 đ/đêm</span>
+                            <h3>Phòng thường</h3>
+                        </div>
+                        <a class="room-booking">Đặt Phòng</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 p-0 room-thumb position-relative">
+                <img class="img-fluid" src="images/2.webp">
+                <div class="room-thumb-desc p-5 mx-3 position-absolute w-100">
+                    <div class="room-thumb-heading d-flex justify-content-between align-items-center mx-3">
+                        <div class="room-heading-inner text-white">
+                            <span>Từ 2.000.000 đ/đêm</span>
+                            <h3>Phòng thường</h3>
+                        </div>
+                        <a class="room-booking">Đặt Phòng</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 p-0 room-thumb position-relative">
+                <img class="img-fluid" src="images/2.webp">
+                <div class="room-thumb-desc p-5 mx-3 position-absolute w-100">
+                    <div class="room-thumb-heading d-flex justify-content-between align-items-center mx-3">
+                        <div class="room-heading-inner text-white">
+                            <span>Từ 2.000.000 đ/đêm</span>
+                            <h3>Phòng thường</h3>
+                        </div>
+                        <a class="room-booking">Đặt Phòng</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- swiper-đánh giá -->
+<div class="container-fluid feedback-show m-0 p-lg-5 pt-2 position-relative">
+    <div class="container p-lg-5">
+        <div class="swiper-customer-feedback px-5">
+            Phản hồi khách hàng
+        </div>
+        <div class="swiper swiper-feedback py-lg-5 px-1">
+            <div class="swiper-wrapper swiper-feedback-content ">
+                <div class="swiper-slide swiper-feedback-cus">
+                    <div class="swiper-caption">
+                        <div class="p-4 swiper-caption-container shadow">
+                            <div class="swiper-feedback-title">
+                                <p>Trải nghiệm tuyệt vời</p>
+                            </div>
+                            <div class="swiper-feedback-content">
+                                <p>Cứ mỗi vài năm tôi lại có dịp ghé thăm đà lạt, tuy nhiên những cảm xúc của tôi
+                                    giành
+                                    cho
+                                    Đà Lạt dần tan biến theo. Khu vực trung tâm Đà Lạt Tôi thường xuyên đến khu vực
+                                    hồ
+                                    Tuyền
+                                    Lâm và ở rất nhiều resorts gần đây, nhưng phải nói là tôi rất thích tại
+                                    Terracotta
+                                    vào
+                                    dịp cuối tuần, khung cảnh rừng núi bên hồ tuyệt vời. Nhân viên thân thiện và
+                                    chuyên
+                                    nghiệp. Phòng chúng tôi nhìn ra rừng thông, phòng tắm sạch sẽ, bữa sáng rất
+                                    ngon.
+                                </p>
+                            </div>
+                            <div class="swiper-feedback-author">Phương Nguyễn ngày 10/03/2021</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-feedback-cus">
+                    <div class="swiper-caption">
+                        <div class="p-4 swiper-caption-container shadow">
+                            <div class="swiper-feedback-title">
+                                <p>Trải nghiệm tuyệt vời</p>
+                            </div>
+                            <div class="swiper-feedback-content">
+                                <p>Cứ mỗi vài năm tôi lại có dịp ghé thăm đà lạt, tuy nhiên những cảm xúc của tôi
+                                    giành
+                                    cho
+                                    Đà Lạt dần tan biến theo. Khu vực trung tâm Đà Lạt Tôi thường xuyên đến khu vực
+                                    hồ
+                                    Tuyền
+                                    Lâm và ở rất nhiều resorts gần đây, nhưng phải nói là tôi rất thích tại
+                                    Terracotta
+                                    vào
+                                    dịp cuối tuần, khung cảnh rừng núi bên hồ tuyệt vời. Nhân viên thân thiện và
+                                    chuyên
+                                    nghiệp. Phòng chúng tôi nhìn ra rừng thông, phòng tắm sạch sẽ, bữa sáng rất
+                                    ngon.
+                                </p>
+                            </div>
+                            <div class="swiper-feedback-author">Phương Nguyễn ngày 10/03/2021</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-feedback-cus">
+                    <div class="swiper-caption">
+                        <div class="p-4 swiper-caption-container shadow">
+                            <div class="swiper-feedback-title">
+                                <p>Trải nghiệm tuyệt vời</p>
+                            </div>
+                            <div class="swiper-feedback-content">
+                                <p>Cứ mỗi vài năm tôi lại có dịp ghé thăm đà lạt, tuy nhiên những cảm xúc của tôi
+                                    giành
+                                    cho
+                                    Đà Lạt dần tan biến theo. Khu vực trung tâm Đà Lạt Tôi thường xuyên đến khu vực
+                                    hồ
+                                    Tuyền
+                                    Lâm và ở rất nhiều resorts gần đây, nhưng phải nói là tôi rất thích tại
+                                    Terracotta
+                                    vào
+                                    dịp cuối tuần, khung cảnh rừng núi bên hồ tuyệt vời. Nhân viên thân thiện và
+                                    chuyên
+                                    nghiệp. Phòng chúng tôi nhìn ra rừng thông, phòng tắm sạch sẽ, bữa sáng rất
+                                    ngon.
+                                </p>
+                            </div>
+                            <div class="swiper-feedback-author">Phương Nguyễn ngày 10/03/2021</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-feedback-cus">
+                    <div class="swiper-caption">
+                        <div class="p-4 swiper-caption-container shadow">
+                            <div class="swiper-feedback-title">
+                                <p>Trải nghiệm tuyệt vời</p>
+                            </div>
+                            <div class="swiper-feedback-content">
+                                <p>Cứ mỗi vài năm tôi lại có dịp ghé thăm đà lạt, tuy nhiên những cảm xúc của tôi
+                                    giành
+                                    cho
+                                    Đà Lạt dần tan biến theo. Khu vực trung tâm Đà Lạt Tôi thường xuyên đến khu vực
+                                    hồ
+                                    Tuyền
+                                    Lâm và ở rất nhiều resorts gần đây, nhưng phải nói là tôi rất thích tại
+                                    Terracotta
+                                    vào
+                                    dịp cuối tuần, khung cảnh rừng núi bên hồ tuyệt vời. Nhân viên thân thiện và
+                                    chuyên
+                                    nghiệp. Phòng chúng tôi nhìn ra rừng thông, phòng tắm sạch sẽ, bữa sáng rất
+                                    ngon.
+                                </p>
+                            </div>
+                            <div class="swiper-feedback-author">Phương Nguyễn ngày 10/03/2021</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- swiper- đánh giá js -->
+<script>
+
+    var swiper = new Swiper(".swiper-img-show", {
+        slidesPerView: 2.2,
+        spaceBetween: 100,
+        loop: true,
+        centeredSlides: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+    </script>
