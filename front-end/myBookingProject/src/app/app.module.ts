@@ -10,6 +10,14 @@ import { FooterComponent } from './components/inc/footer/footer.component';
 import { HeaderComponent } from './components/inc/header/header.component';
 import { ButtonComponent } from './components/inc/button/button.component';
 import { Button2Component } from './components/inc/button2/button2.component';
+import { SwiperFeedbackComponent } from './components/home/swiper-feedback/swiper-feedback.component';
+import { FristShowPageComponent } from './components/inc/frist-show-page/frist-show-page.component';
+import { AboutSharedComponent } from './components/about/about-shared/about-shared.component';
+import { ContactSharedComponent } from './components/inc/contact-shared/contact-shared.component';
+import { CarouselAboutComponent } from './components/about/carousel-about/carousel-about.component';
+import { LocationComponent } from './components/location/location.component';
+import { LocationSharedComponent } from './components/location/location-shared/location-shared.component';
+import { RoomComponent } from './components/room/room.component';
 
 @NgModule({
   declarations: [
@@ -21,10 +29,18 @@ import { Button2Component } from './components/inc/button2/button2.component';
     HeaderComponent,
     ButtonComponent,
     Button2Component,
+    SwiperFeedbackComponent,
+    FristShowPageComponent,
+    AboutSharedComponent,
+    ContactSharedComponent,
+    CarouselAboutComponent,
+    LocationComponent,
+    LocationSharedComponent,
+    RoomComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

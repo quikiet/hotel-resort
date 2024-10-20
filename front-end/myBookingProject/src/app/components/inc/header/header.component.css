@@ -1,5 +1,5 @@
 *{
-    color: var(--color-textƯ);
+    color: var(--color-text);
 }
 
 .nav-header{
@@ -59,22 +59,22 @@
 .menuarea ul{
     text-decoration: none;
     list-style-type: none;
+    padding-top: 20px;
 }
 
 .nav-link{
     padding: 8px 5px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 300;
     transition: 0.3s;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: var(--brown-color);
 }
 
 .nav-link:hover{
-    color: var(--yellow-color);
+    color: var(--color-button);
     transform: translateX(10px);
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .logo-menu{

@@ -1,0 +1,35 @@
+.iframe-map{
+    height: 400px;
+}
+
+.form-control{
+    border-radius: 0;
+    padding: 15px 10px;
+}
+
+.contact-inner{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.contact-icon{
+    padding-right: 20px;
+    font-size: 30px;
+    color: var(--color-text-secondary);
+}
+
+.contact-icon i{
+    font-weight: 100;
+}
+
+.contact-info{
+    color: var(--color-text-secondary);
+}
+
+.contact-info p{
+    color: var(--color-text);
+    font-weight: 500;
+    word-spacing: 2;
+    text-spacing-trim: 2;
+    margin: 0;
+}

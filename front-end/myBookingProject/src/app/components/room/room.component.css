@@ -1,0 +1,21 @@
+
+.h-line{
+    height: 2px;
+    width: 200px;
+}
+
+.room-heading{
+    font-size: 36px;
+    user-select: none;
+}
+
+.filter-room{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.form-title{
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+}

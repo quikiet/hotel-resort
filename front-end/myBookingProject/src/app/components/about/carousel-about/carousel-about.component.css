@@ -1,0 +1,23 @@
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    background-color: var(--color-button);
+}
+
+.carousel-indicators button{
+    background-color: var(--color-button);
+}
+
+.about-carousel-img{
+    height: 500px;
+}
+
+.about-service-title{
+    padding-right: 45%;
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--color-text);
+}
+
+.about-service-desc{
+    padding-top: 20px;
+    color: var(--color-text-secondary);
+}

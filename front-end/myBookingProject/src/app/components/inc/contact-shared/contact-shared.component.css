@@ -1,0 +1,36 @@
+/* đặt phòng hoặc câu hỏi */
+
+.forQuery {
+    padding: 100px 0;
+}
+
+.Query_text {
+    font-size: 25px;
+}
+
+.Query_text,
+.phone_num {
+    line-height: 30px;
+}
+
+.Query_border {
+    border: 1px solid var(--color-text);
+}
+
+.phone_num a {
+    background: var(--color-button);
+    color: #fff;
+    padding: 12px 53px;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 18px;
+    border: 1px solid transparent;
+    transition: .3s;
+}
+
+.phone_num:hover a {
+    background: #fff;
+    color: var(--color-button);
+    border: 1px solid var(--color-button);
+
+}

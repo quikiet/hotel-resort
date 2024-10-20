@@ -31,37 +31,6 @@
     word-spacing: 2px;
 }
 
-
-/* about */
-
-.about-text-header {
-    font-size: 36px;
-    font-weight: 300;
-}
-
-.about-text-desc {
-    color: var(--yellow-color);
-}
-
-.hover {
-    transition: all ease-in-out 0.3s;
-    padding-bottom: 2px;
-}
-
-.hover:hover {
-    border-bottom: 1px solid var(--color-text-secondary);
-}
-
-.image-thumb img{
-    width: 280px;
-    height: 400px;
-}
-
-.img_2{
-    margin-left: 15px;
-    margin-top: 35px;
-}
-
 /* Ưu đãi */
 
 .section_title h3 {
@@ -87,9 +56,10 @@
     transition: .3s;
 }
 
-.about_thumb:hover img{
+.about_thumb:hover img {
     transform: scale(1.1);
 }
+
 .single_offers ul {
     padding-left: 1rem;
     color: var(--color-text-secondary);
@@ -99,96 +69,44 @@
 }
 
 
-/* Địa điểm tốt  */
-
-
-.container-fuild-location {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    color: var(--white-color);
-    background-image: url(https://dalat.terracottaresort.com/static/themes/sevenmedia/images/backimg.svg);
-}
-
-.content-location-right{
-    padding-left: 25px;
-}
-
-.content-location-left{
-    padding-right: 25px;
-}
-
-.wrap-location {
-    display: block;
-    text-decoration: none;
-    font-size: x-small;
-    padding: 15px 0;
-    color: var(--color-text-secondary);
-}
-
-.wrap-location:hover {
-    color: var(--color-button);
-}
-
-.img-location {
-    width: 100%;
-    height: auto;
-    /* padding: 1rem 0; */
-
-    /* padding-top: 5rem; */
-}
-
-.wrapper-location h4 {
-    font-size: 18px;
-    font-weight: 700;
-}
-
-.wrapper-location span {
-    font-size: 14px;
-}
-
-.lct-top-content {
-    padding-left: 15rem;
-}
-
-.lct-top-content span{
-    color: var(--color-text-secondary);
-}
-
-.card-location-img {
-    overflow: hidden;
-    margin-bottom: 1.5rem;
-}
-
 /* nhà hàng và ẩm thực */
 
+.image-thumb img {
+    width: 280px;
+    height: 400px;
+}
 
+
+.img_2 {
+    margin-left: 15px;
+    margin-top: 35px;
+}
 /* phòng nổi bật */
 
-.room-thumb{
+.room-thumb {
     overflow: hidden;
 }
 
-.room-heading-inner span{
+.room-heading-inner span {
     font-weight: 200;
 }
 
-.room-heading-inner h3{
+.room-heading-inner h3 {
     font-weight: 400;
     padding-top: 10px;
 }
 
-.room-thumb img{
+.room-thumb img {
     transform: scale(1);
     transition: .3s;
 }
 
-.room-thumb-desc{
+.room-thumb-desc {
     bottom: 0;
     left: 0;
 }
 
-.room-booking{
+.room-booking {
     transition: 0.3s;
     text-decoration: none;
     color: #ffffff;
@@ -198,16 +116,22 @@
     font-weight: 500;
 }
 
-.room-thumb:hover img{
+.room-thumb:hover img {
     transform: scale(1.1);
 }
 
-.room-thumb:hover .room-booking{
+.room-thumb:hover .room-booking {
     transform: translateY(0);
     opacity: 1;
 }
 
-.room-booking:hover{
+.room-booking:hover {
     color: var(--color-button);
     border-bottom: 1px solid var(--color-button);
+}
+
+/* liên hệ */
+
+.section-title h3{
+    font-size: 46px;
 }

@@ -1,0 +1,60 @@
+/* Địa điểm tốt  */
+
+
+.container-fuild-location {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: var(--white-color);
+    background-image: url(https://dalat.terracottaresort.com/static/themes/sevenmedia/images/backimg.svg);
+}
+
+.content-location-right {
+    padding-left: 25px;
+}
+
+.content-location-left {
+    padding-right: 25px;
+}
+
+.wrap-location {
+    display: block;
+    text-decoration: none;
+    font-size: x-small;
+    padding: 15px 0;
+    color: var(--color-text-secondary);
+}
+
+.wrap-location:hover {
+    color: var(--color-button);
+}
+
+.img-location {
+    width: 100%;
+    height: auto;
+    /* padding: 1rem 0; */
+
+    /* padding-top: 5rem; */
+}
+
+.wrapper-location h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.wrapper-location span {
+    font-size: 14px;
+}
+
+.lct-top-content {
+    padding-left: 15rem;
+}
+
+.lct-top-content span {
+    color: var(--color-text-secondary);
+}
+
+.card-location-img {
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
