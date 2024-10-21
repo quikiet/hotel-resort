@@ -49,3 +49,7 @@ body {
 * h3 {
     font-family: "Arima", system-ui;
 }
+
+* img{
+    user-select: none;
+}

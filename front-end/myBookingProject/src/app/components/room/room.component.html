@@ -6,7 +6,7 @@
         <div class="h-line bg-dark"></div>
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row gap-1">
             <div class="col-lg-3 col-md-12 bg-white rounded shadow">
                 <div class="filter-room-container">
                     <div class="p-2 pb-5">
@@ -17,60 +17,97 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse flex-column" id="navFilterRoom">
-                                <div class="filter-room p-2">Bộ lọc</div>
-                                <div class="nav-item border rounded bg-light mb-3">
-                                    <form action="" class="form-check-day check-day">
-                                        <div class="form-inner p-3">
-                                            <div class="form-title">Chọn ngày</div>
-                                            <div class="form-body">
-                                                <label class="py-1">Check-in</label>
-                                                <input type="date" name="inp_checkin" class="form-control">
-                                                <label class="py-1">Check-out</label>
-                                                <input type="date" name="inp_checkout" class="form-control">
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="nav-item border rounded bg-light mb-3">
-                                    <form action="" class="form-check-day check-day">
-                                        <div class="form-inner p-3">
-                                            <div class="form-title">Chọn ngày</div>
-                                            <div class="form-body">
-                                                <div class="py-1">
-                                                    <input class="form-check-input me-1" type="checkbox">
-                                                    <label>Tivi</label>
-                                                </div>
-                                                <div class="py-1">
-                                                    <input class="form-check-input me-1" type="checkbox">
-                                                    <label>Tivi</label>
-                                                </div>
-                                                <div class="py-1">
-                                                    <input class="form-check-input me-1" type="checkbox">
-                                                    <label>Tivi</label>
+                                <div class="nav-filter w-100">
+                                    <div class="filter-room py-2">Bộ lọc</div>
+                                    <div class="nav-item border rounded bg-light mb-3">
+                                        <form action="" class="form-check-day check-day">
+                                            <div class="form-inner p-3">
+                                                <div class="form-title">Chọn ngày</div>
+                                                <div class="form-body">
+                                                    <label class="py-1">Check-in</label>
+                                                    <input type="date" name="inp_checkin" class="form-control">
+                                                    <label class="py-1">Check-out</label>
+                                                    <input type="date" name="inp_checkout" class="form-control">
                                                 </div>
                                             </div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="nav-item border rounded bg-light mb-3">
-                                    <form action="" class="form-check-day check-day ">
-                                        <div class="form-inner p-3">
-                                            <div class="form-title">Nội thất</div>
-                                            <div class="form-body">
-                                                <label class="py-1">Check-in</label>
-                                                <input type="date" name="inp_checkin" class="form-control">
-                                                <label class="py-1">Check-out</label>
-                                                <input type="date" name="inp_checkout" class="form-control">
+                                        </form>
+                                    </div>
+                                    <div class="nav-item border rounded bg-light mb-3">
+                                        <form action="" class="form-check-day check-day">
+                                            <div class="form-inner p-3">
+                                                <div class="form-title">Chọn ngày</div>
+                                                <div class="form-body">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 py-1">
+                                                            <input class="form-check-input me-1" type="checkbox">
+                                                            <label>Tivi</label>
+                                                        </div>
+                                                        <div class="col-lg-6 py-1">
+                                                            <input class="form-check-input me-1" type="checkbox">
+                                                            <label>Tivi</label>
+                                                        </div>
+                                                        <div class="col-lg-6 py-1">
+                                                            <input class="form-check-input me-1" type="checkbox">
+                                                            <label>Tivi</label>
+                                                        </div>
+                                                        <div class="col-lg-6 py-1">
+                                                            <input class="form-check-input me-1" type="checkbox">
+                                                            <label>Tivi</label>
+                                                        </div>
+                                                        <div class="col-lg-6 py-1">
+                                                            <input class="form-check-input me-1" type="checkbox">
+                                                            <label>Tivi</label>
+                                                        </div>
+                                                        <div class="col-lg-6 py-1">
+                                                            <input class="form-check-input me-1" type="checkbox">
+                                                            <label>Tivi</label>
+                                                        </div>
+                                                        <div class="col-lg-6 py-1">
+                                                            <input class="form-check-input me-1" type="checkbox">
+                                                            <label>Tivi</label>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
                                             </div>
-                                        </div>
-                                    </form>
+                                        </form>
+                                    </div>
+                                    <div class="nav-item border rounded bg-light mb-2">
+                                        <form action="" class="form-check-day check-day ">
+                                            <div class="form-inner p-3">
+                                                <div class="form-title">Nội thất</div>
+                                                <div class="form-body">
+                                                    <label class="py-1">Check-in</label>
+                                                    <input type="date" name="inp_checkin" class="form-control">
+                                                    <label class="py-1">Check-out</label>
+                                                    <input type="date" name="inp_checkout" class="form-control">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </nav>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-9"></div>
+            <div class="col-lg-9 col-md-12">
+                <div class="card bg-white rounded shadow">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="card-img"></div>
+                            </div>
+                            <div class="col-5">
+                                <div class="card-info"></div>
+                            </div>
+                            <div class="col-2">
+                                <div class="card-action"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
